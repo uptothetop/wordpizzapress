@@ -1,0 +1,41 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pix {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.img-wrapper {
+  transition: 0.3s all;
+  flex-basis: 250px;
+  width: 20%;
+  height: 30vh;
+  display:flex;
+  flex-direction: column;
+  margin: 5px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.img-wrapper:hover {
+  box-shadow: 0px 0px 15px #000;
+  transform: translate(0, -10%) scale(1.1); 
+}
+
+p {
+  height: 20%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
